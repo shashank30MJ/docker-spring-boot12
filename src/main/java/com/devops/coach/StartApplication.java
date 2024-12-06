@@ -12,7 +12,7 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "This is sample application for testing");
+        model.addAttribute("title", "This is sample application for testing from euphoric");
         model.addAttribute("msg", "Hello All..We are deploying springboot application into EKS cluster");
         return "index";
     }
